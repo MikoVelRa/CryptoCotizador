@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Gayathri&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gayathri', sans-serif;
+}
+
+body{
+    background-color: #222f3e;
+    color: white;
+}
+
+.container{
+    width: 70%;
+    margin: 100px auto;
+    display: flex;
+}
+
+.container > section{
+    width: 50%;
+    padding: 10px;
+}
+
+.container section > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 100%;    
+}
+
+.container section > form > select{
+    padding: 13px 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.container section > form > input{
+    padding: 17px 5px 10px;
+    background-color: #0abde3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;    
+    text-align: center;
+    font-weight: bold;    
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.container section > form > label{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Estilos para la nota */
+.message{
+    width: 100%;
+    padding: 7px;
+    color: white;
+    background-color: #d63031;
+    text-align: center;
+    margin-top: 12px;
+}
+
+/* Resultado */
+.resultado{ 
+    margin-top: 25px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 5px;
+    
+}
+
+span{
+    font-weight: bold;
+    color: #44bd32;
+}
